@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form id="formulaire">
+      <div class="question-container">
+        <div class="question-number"><span>1</span></div>
+        <div class="txt">
+          <div class="question">
+            <p class="question-txt">Que signifie CSS ?</p>
+          </div>
+          <div class="response-choix">
+            <ul>
+              <li>
+                <input
+                  type="radio"
+                  id="res1-1"
+                  name="ques1"
+                  class="radio-btn"
+                  value="01"
+                  onclick="afficheBtn()"
+                />
+                <label for="res1-1"
+                  ><span class="choix">A</span>Cascading Style Cheet</label
+                >
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  id="res1-2"
+                  class="radio-btn"
+                  name="ques1"
+                  value="02"
+                  onclick="afficheBtn()"
+                />
+                <label for="res1-2"
+                  ><span class="choix">B</span>Create Simple Samples</label
+                >
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  id="res1-3"
+                  class="radio-btn"
+                  name="ques1"
+                  value="03"
+                  onclick="afficheBtn()"
+                />
+                <label for="res1-3"
+                  ><span class="choix">C</span>C'est Super Simple !</label
+                >
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  id="res1-4"
+                  name="ques1"
+                  class="radio-btn"
+                  value="04"
+                  onclick="afficheBtn()"
+                />
+                <label for="res1-4"
+                  ><span class="choix">D</span>Choucroute et Saucisses
+                  d'Alsace</label
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="question-container">
+        <div class="question-number"><span>2</span></div>
+        <div class="txt">
+          <div class="question">
+            <p class="question-txt">A quoi sert le langage CSS ?</p>
+          </div>
+          <div class="response-choix">
+            <ul>
+              <li>
+                <input
+                  type="radio"
+                  id="res2-1"
+                  name="ques2"
+                  value="01"
+                  class="radio-btn"
+                  onclick="afficheBtn()"
+                />
+                <label for="res2-1"
+                  ><span class="choix">A</span>À réaliser des pages
+                  dynamiques</label
+                >
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  id="res2-2"
+                  name="ques2"
+                  value="02"
+                  class="radio-btn"
+                  onclick="afficheBtn()"
+                />
+                <label for="res2-2"
+                  ><span class="choix">B</span>À ajouter du style aux documents
+                  web</label
+                >
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  id="res2-3"
+                  name="ques2"
+                  value="03"
+                  class="radio-btn"
+                  onclick="afficheBtn()"
+                />
+                <label for="res2-3"
+                  ><span class="choix">C</span>À insérer du contenu dans une
+                  page internet</label
+                >
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  id="res2-4"
+                  name="ques2"
+                  value="04"
+                  class="radio-btn"
+                  onclick="afficheBtn()"
+                />
+                <label for="res2-4"
+                  ><span class="choix">D</span>À simuler une application en mode
+                  avion durant les trajets dans un bus</label
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="submit-btn">
+        <input
+          class="btn"
+          type="submit"
+          value="Valider les réponses"
+          disabled
+        />
+      </div>
+    </form>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
