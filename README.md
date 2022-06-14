@@ -1,7 +1,7 @@
 # Quiz-
 
 
-Voici un exercice pour pratiquer le javascript et la manipulation du DOM.
+
 
 # Exercice: créer un questionnaire à choix multiples
 
