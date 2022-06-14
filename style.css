@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+  font-family: sans-serif;
 }
 
 body {
@@ -43,7 +44,6 @@ body {
 /* container de la question et des réponses */
 .txt {
   width: 70%;
-  font-family: sans-serif;
 }
 
 .question-txt {
@@ -71,7 +71,7 @@ input[type="radio"]:checked + label span {
 /* lettre devant le choix de réponse */
 label span {
   border: 1px solid Gainsboro;
-  padding: 3px 8px;
+  padding: 5px 8px;
   border-radius: 55px;
   background: WhiteSmoke;
   cursor: pointer;
@@ -90,4 +90,35 @@ input[type="submit"] {
   padding: 5px 12px;
   font-size: 1.3em;
   cursor: pointer;
+}
+
+/* Style des réponses */
+
+.correctAnswer {
+  background: rgb(209, 255, 209);
+  color: rgb(0, 122, 0);
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.wrongAnswer {
+  background: rgb(255, 170, 170);
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 10px;
+  color: rgb(223, 0, 0);
+  text-decoration: line-through;
+}
+
+.correctSpan {
+  border: 1px solid rgb(0, 122, 0);
+  background: rgb(209, 255, 209) !important;
+  color: rgb(0, 122, 0);
+}
+
+.wrongSpan {
+  border: 1px solid rgb(223, 0, 0);
+  background: rgb(255, 170, 170) !important;
+  color: rgb(223, 0, 0);
 }
