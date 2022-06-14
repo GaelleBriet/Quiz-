@@ -25,3 +25,28 @@ btn.addEventListener("click", (e) => {
 });
 
 // bonnes réponses
+let rep1 = document.querySelectorAll(".response-choix");
+console.log(rep1);
+
+function isTrue() {
+  var valeur = "";
+  for (let i = 0; i < inputList.length; i++) {
+    if (inputList[i].checked) {
+      valeur = inputList[i].value;
+    }
+  }
+  alert(valeur + " a été sélectionné");
+}
+
+// a faire
+// recuperer la reponse de l'input radio
+
+// recuperer la valeur avec checked
+// retourn true si coché, false sinon
+document.getElementById("res1-1").checked;
+
+// pour traiter les données
+if (document.getElementById("res1-1").checked === true) {
+  //bla bla bla//
+  console.log("vrai");
+}
