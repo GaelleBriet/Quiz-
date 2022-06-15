@@ -41,7 +41,8 @@
                   onclick="afficheBtn()"
                 />
                 <label for="res1-2" id="label2"
-                  ><span class="choix">B</span>Create Simple Samples</label
+                  ><span class="choix" id="choix2">B</span>Create Simple
+                  Samples</label
                 >
               </li>
               <li>
@@ -54,7 +55,8 @@
                   onclick="afficheBtn()"
                 />
                 <label for="res1-3" id="label3"
-                  ><span class="choix">C</span>C'est Super Simple !</label
+                  ><span class="choix" id="choix3">C</span>C'est Super Simple
+                  !</label
                 >
               </li>
               <li>
@@ -67,8 +69,8 @@
                   onclick="afficheBtn()"
                 />
                 <label for="res1-4" id="label4"
-                  ><span class="choix">D</span>Choucroute et Saucisses
-                  d'Alsace</label
+                  ><span class="choix" id="choix4">D</span>Choucroute et
+                  Saucisses d'Alsace</label
                 >
               </li>
             </ul>
@@ -76,7 +78,7 @@
         </div>
       </div>
 
-      <div class="question-container">
+      <div class="question-container question-container2">
         <div class="question-number"><span>2</span></div>
         <div class="txt">
           <div class="question">
@@ -89,12 +91,12 @@
                   type="radio"
                   id="res2-1"
                   name="ques2"
-                  value="01"
+                  value="05"
                   class="radio-btn"
                   onclick="afficheBtn()"
                 />
                 <label for="res2-1" id="label5"
-                  ><span class="choix">A</span>À réaliser des pages
+                  ><span class="choix" id="choix5">A</span>À réaliser des pages
                   dynamiques</label
                 >
               </li>
@@ -103,13 +105,13 @@
                   type="radio"
                   id="res2-2"
                   name="ques2"
-                  value="02"
+                  value="06"
                   class="radio-btn"
                   onclick="afficheBtn()"
                 />
                 <label for="res2-2" id="label6"
-                  ><span class="choix">B</span>À ajouter du style aux documents
-                  web</label
+                  ><span class="choix" id="choix6">B</span>À ajouter du style
+                  aux documents web</label
                 >
               </li>
               <li>
@@ -117,13 +119,13 @@
                   type="radio"
                   id="res2-3"
                   name="ques2"
-                  value="03"
+                  value="07"
                   class="radio-btn"
                   onclick="afficheBtn()"
                 />
                 <label for="res2-3" id="label7"
-                  ><span class="choix">C</span>À insérer du contenu dans une
-                  page internet</label
+                  ><span class="choix" id="choix7">C</span>À insérer du contenu
+                  dans une page internet</label
                 >
               </li>
               <li>
@@ -131,13 +133,14 @@
                   type="radio"
                   id="res2-4"
                   name="ques2"
-                  value="04"
+                  value="08"
                   class="radio-btn"
                   onclick="afficheBtn()"
                 />
                 <label for="res2-4" id="label8"
-                  ><span class="choix">D</span>À simuler une application en mode
-                  avion durant les trajets dans un bus</label
+                  ><span class="choix" id="choix8">D</span>À simuler une
+                  application en mode avion durant les trajets dans un
+                  bus</label
                 >
               </li>
             </ul>
@@ -152,6 +155,9 @@
           value="Valider les réponses"
           disabled
         />
+      </div>
+      <div class="reset-btn">
+        <input class="reset" type="submit" value="Recommencer" />
       </div>
     </form>
 

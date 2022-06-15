@@ -16,18 +16,19 @@ body {
 
 .question-container {
   width: 70%;
-  margin: 50px auto;
+  margin: 100px auto;
   background: Gainsboro;
   padding: 30px;
   display: flex;
   border: solid Gainsboro 1px;
   border-radius: 65px 20px 65px 20px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /* numéro de la question */
 .question-number {
-  width: 30%;
+  width: 20%;
   display: flex;
   justify-content: center;
 }
@@ -78,8 +79,15 @@ label span {
   margin-right: 15px;
 }
 
-/***** Bouton Validation *****/
+/***** Boutons *****/
 .submit-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.reset-btn {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -121,4 +129,38 @@ input[type="submit"] {
   border: 1px solid rgb(223, 0, 0);
   background: rgb(255, 170, 170) !important;
   color: rgb(223, 0, 0);
+}
+
+.faux {
+  display: inline-block;
+  text-decoration: none !important;
+  width: 15%;
+  text-align: center;
+}
+
+.vrai {
+  display: inline-block;
+  text-decoration: none !important;
+  width: 15%;
+  text-align: center;
+}
+
+.explication {
+  background: WhiteSmoke;
+  color: LightSlateGray;
+  border: 1px solid WhiteSmoke;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+/* Score */
+
+.score {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: darkmagenta;
+  font-size: 2rem;
 }
